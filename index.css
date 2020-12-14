@@ -86,14 +86,23 @@ img {
     text-rendering: optimizeLegibility;
     transition: background-color .2s, box-shadow .2s, color .2s;
 }
-body:not(.--isIOS):not(.--isAndroid) .button--web-only {
-    display: inline-flex !important;
+
+
+@media screen and (max-width: 360px){
+    body:not(.--isIOS):not(.--isAndroid) .button--web-only {
+        display: none;
+    }
 }
 body:not(.--isIOS):not(.--isAndroid) .button--web-only:hover {
     background-color: #174ea6;
     color: white;
 }
 
+@media screen and (min-width: 360px){
+    .button--phone-only{
+        display: none;
+    }
+}
 
 .body{
     background-color: #fff;
@@ -719,6 +728,11 @@ h2 {
     color: #5F6368;
     font-size: 16px;
     margin-bottom: 28px;
+}
+@media screen and (max-width: 718px){
+    .chapter-content_description{
+        margin: 0 10%;
+    }
 }
 
 .chapter-content_buttons {
