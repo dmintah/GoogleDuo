@@ -525,6 +525,11 @@ h2 {
     line-height: 40px;
     margin: 0 auto 16px;
 }
+@media screen and (max-width: 1023px){
+    .desktop-only {
+        display: none !important;
+    }
+}
 @media screen and (min-width: 718px){
     .section-content_title {
         font-size: 44px;
