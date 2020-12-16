@@ -829,11 +829,9 @@ h2 {
         padding: 0 70px;
     }
 }
-/* @media screen and (min-width: 1024px){
-    .get-started .glue-tile-set{
-        padding: 0;
-    }
-} */
+.get-started{
+    margin: 0 auto 70px;
+}
 @media screen and (min-width: 1440px){
     .get-started .glue-tile-set{
         padding-left: 70px;
