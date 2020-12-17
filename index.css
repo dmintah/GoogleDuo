@@ -22,6 +22,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 9;
+    box-shadow: 0px 0px 6px 1px #888888;
 }
 @media screen and (min-width: 718px){
     .header {
@@ -751,12 +752,12 @@ h2 {
     width: calc(100% - 13%);
 }
 
-.line-margin_top{
+.line-margin_buttom{
     margin-bottom: 92px;
 }
 @media screen and (min-width: 1024px){
     .line-margin_buttom{
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
 }
 
@@ -765,7 +766,7 @@ h2 {
 }
 @media screen and (min-width: 1024px){
     .line-margin_top{
-        margin-top: 100px;
+        margin-top: 45px;
     }
 }
 
@@ -785,7 +786,11 @@ h2 {
 .glue-mod-spacer-2-top{
     margin-top: 16px;
 }
-
+@media screen and (min-width: 1440px){
+    .glue-mod-spacer-2-top {
+        margin-left: 47px;
+    }
+}
 
 
 .glue-tile-set {
@@ -831,13 +836,18 @@ h2 {
 }
 .get-started{
     margin: 0 auto 70px;
+    max-width: 1200px;
 }
 @media screen and (min-width: 1440px){
     .get-started .glue-tile-set{
         padding-left: 70px;
     }
 }
-
+@media screen and (min-width: 1440px){
+    .get-started{
+        max-width: 1296px;
+    }
+}
 
 
 
