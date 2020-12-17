@@ -1040,14 +1040,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
 .glue-tile .glue-tile__header--icon .glue-tile__icon, .glue-tile__container .glue-tile__header--icon .glue-tile__icon {
     height: 48px;
 }
@@ -1106,12 +1098,6 @@ h2 {
 
 
 
-
-
-
-
-
-
 .glue-tile .glue-tile__links, .glue-tile__container .glue-tile__links {
     bottom: 8px;
     display: flex;
@@ -1140,27 +1126,6 @@ h2 {
         bottom: 56px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .glue-tile_link {
     line-height: 1.71429;
@@ -1240,4 +1205,65 @@ h2 {
 
 .glue-button:hover{
     background-color:#e8f0fe ;
+}
+
+
+
+
+/* index2-css */
+
+
+.g-team-home-intro {
+    align-items: center;
+    background-image: url(g_team_home_intro_mobile_bg.svg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 0 39px;
+}
+@media screen and (min-width: 580px){
+    .g-team-home-intro {
+        background-image: url(g_team_home_intro_desktop_bg.svg);
+        background-position: 100% -50px;
+        background-size: 300px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+
+
+
+
+
+
+
+h2 {
+    font-size: 40px;
+    letter-spacing: -.5px;
+    line-height: 52px;
+    margin: 20px 0;
+}
+
+h1.h-has-top-margin, h2.h-has-top-margin, h3.h-has-top-margin, h4.h-has-top-margin, h5.h-has-top-margin, h6.h-has-top-margin {
+    margin-top: 16px;
+}
+h1.h-has-bottom-margin, h2.h-has-bottom-margin, h3.h-has-bottom-margin, h4.h-has-bottom-margin, h5.h-has-bottom-margin, h6.h-has-bottom-margin {
+    margin-bottom: 16px;
+}
+.g-team-home-intro .heading {
+    color: #616161;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (min-width: 580px){
+    .g-team-home-intro .heading {
+        font-size: 28px;
+        line-height: 36px;
+        width: 68%;
+    }
 }
