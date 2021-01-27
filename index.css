@@ -10,11 +10,11 @@ body{
 }
 @font-face{
     font-family: 'normal';
-    src:url(../fonts/font1.woff2);
+    src:url(fonts/font1.woff2);
 }
 @font-face{
     font-family: 'normal2';
-    src:url(../fonts/font2.woff2);
+    src:url(fonts/font2.woff2);
 }
 .header{
     align-items: center;
